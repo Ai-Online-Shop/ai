@@ -22,18 +22,21 @@
   </head>
   <body>
     <!-- Configure analytics to use gtag -->
-    <amp-analytics type="gtag" data-credentials="include">
-      <script type="application/json">
-        {
-          "vars": {
-            "gtag_id": "UA-145122008-1",
-            "config": {
-              "UA-145122008-1": { "groups": "default" }
-            }
-          },
-        }
-      </script>
-    </amp-analytics>
+    <amp-analytics type="googleanalytics">
+  <script type="application/json">
+  {
+    "vars": {
+      "account": "UA-145122008-1"
+    },
+    "triggers": {
+      "trackPageview": {
+        "on": "visible",
+        "request": "pageview"
+      }
+    }
+  }
+  </script>
+</amp-analytics>
   {{ $content }}
 
   </body>
