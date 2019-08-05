@@ -13,9 +13,6 @@
       <link rel="alternate" hreflang="{{ $localeCode }}"
             href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
     @endforeach
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="apple-mobile-web-app-capable" content="yes"/>

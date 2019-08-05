@@ -56,7 +56,7 @@
 @slot('css')
 <style amp-custom>
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .cookie1{
   background-color: #fd345a;
