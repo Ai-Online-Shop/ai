@@ -38,7 +38,7 @@
           "name": "{{$store}}",
           "logo": {
             "@type": "ImageObject",
-            "url": "{{ Request::url() . $store_logo }}",
+            "url": "{{ asset('assets/img/store/logo/store-logo-small.jpf') }}",
             "width": 60,
             "height": 60
           }
