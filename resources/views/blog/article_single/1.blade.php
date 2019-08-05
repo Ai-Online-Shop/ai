@@ -82,6 +82,7 @@ srcset="{{ asset('assets/img/blog/1/bought/200.webp') }} 200w,
 {{ asset('assets/img/blog/1/bought/1225.webp') }} 1225w,
 {{ asset('assets/img/blog/1/bought/1400.webp') }} 1400w"
 src="{{ asset('assets/img/blog/1/bought/1400.webp') }}" height="791" width="1400">
+
 <amp-img fallback alt="AI Better Product Recommendation" layout="responsive" class="blog-picture"
 srcset="{{ asset('assets/img/blog/1/bought/200.jpg') }} 200w,
 {{ asset('assets/img/blog/1/bought/538.jpg') }} 538w,
