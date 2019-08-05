@@ -54,12 +54,19 @@
     <p class="t-blog">With the help of <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" class="quote-gr-blue fw500">machine learning</a> (AI techniques which use statistical methods to enable machines to improve with experience) the software can predict what you are searching for.</p>
     <p class="t-blog">A great example is the search algorithm of Amazon. Just try to type the first 2 letters of a product you regularly order online. Like toothbrushes or toilet paper. You will see that Amazon will suggest you exactly what you are looking for. And this is entirely based on the combination of statistics and data.</p>
     <amp-img alt="AI Search Algorithm of Amazon" layout="responsive" class="blog-picture"
+    srcset="{{ asset('assets/img/blog/1/amazon/200.webp') }} 200w,
+    {{ asset('assets/img/blog/1/amazon/687.webp') }} 687w,
+    {{ asset('assets/img/blog/1/amazon/1059.webp') }} 1059w,
+    {{ asset('assets/img/blog/1/amazon/1185.webp') }} 1185w"
+   src="{{ asset('assets/img/blog/1/amazon/1185.webp') }}" height="462" width="1185">
+    </amp-img>
+    <amp-img alt="AI Search Algorithm of Amazon" layout="responsive" class="blog-picture"
     srcset="{{ asset('assets/img/blog/1/amazon/200.jpg') }} 200w,
     {{ asset('assets/img/blog/1/amazon/687.jpg') }} 687w,
     {{ asset('assets/img/blog/1/amazon/1059.jpg') }} 1059w,
     {{ asset('assets/img/blog/1/amazon/1185.jpg') }} 1185w"
    src="{{ asset('assets/img/blog/1/amazon/1185.jpg') }}" height="462" width="1185">
-    </amp-img>
+    </amp-img></amp-img>
     <p class="blog-picture-desc">Try it yourself at: <a href="https://www.amazon.com/" target="_blank" class="quote-gr-blue fw500">Amazon.com</a></p>
 </div>
 <span id="3"></span>
@@ -68,6 +75,14 @@
 <p class="t-blog">AI used for product recommendations might be the most important aspect for your business, to increase the cross-sales of your Online Shop. Similar to the search algorithms, a sufficient product recommendation algorithm would be based on <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" class="quote-gr-blue fw500">machine learning.</a></p>
 <p class="t-blog">Generally, the more users are visiting your shop, the more data can be stored and later analyzed by the algorithm. Therefore, the final results in the cross-selling section will be more and more individualized.</p>
 <amp-img alt="AI Better Product Recommendation" layout="responsive" class="blog-picture"
+srcset="{{ asset('assets/img/blog/1/bought/200.webp') }} 200w,
+{{ asset('assets/img/blog/1/bought/538.webp') }} 538w,
+{{ asset('assets/img/blog/1/bought/802.webp') }} 802w,
+{{ asset('assets/img/blog/1/bought/1024.webp') }} 1024w,
+{{ asset('assets/img/blog/1/bought/1225.webp') }} 1225w,
+{{ asset('assets/img/blog/1/bought/1400.webp') }} 1400w"
+src="{{ asset('assets/img/blog/1/bought/1400.webp') }}" height="791" width="1400">
+<amp-img alt="AI Better Product Recommendation" layout="responsive" class="blog-picture"
 srcset="{{ asset('assets/img/blog/1/bought/200.jpg') }} 200w,
 {{ asset('assets/img/blog/1/bought/538.jpg') }} 538w,
 {{ asset('assets/img/blog/1/bought/802.jpg') }} 802w,
@@ -75,7 +90,7 @@ srcset="{{ asset('assets/img/blog/1/bought/200.jpg') }} 200w,
 {{ asset('assets/img/blog/1/bought/1225.jpg') }} 1225w,
 {{ asset('assets/img/blog/1/bought/1400.jpg') }} 1400w"
 src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400">
-</amp-img>
+</amp-img></amp-img>
 <p class="blog-picture-desc">© Ai-Online-Shop.com, Photo by <a href="https://unsplash.com/@anckor" target="_blank" class="quote-gr-blue fw500">Julian O'hayon</a></p>
 <p class="t-blog">Imagine the following scenario: You are the owner of an electronics online store. Your customers can buy all types of laptops, computers, and equipment. The AI would analyze already existing purchases and other data from previous customers. The analysis builds the fundament of a future prediction of customer behavior for every individual visitor in real-time.</p>
 <p class="t-blog">Therefore, all product recommendations are individualized for every single customer.</p>
@@ -89,6 +104,15 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
   <h2 class="m10">3. Inventory Management</h2>
   <p class="t-blog">As I know from personal experience, managing inventory can be a time-consuming task. With my first Online Shop, I sold Power Banks via eBay and every night I had to manually count my stock to keep track of everything. </p>
     <amp-img alt="AI Inventory Management" layout="responsive" class="blog-picture"
+    srcset="{{ asset('assets/img/blog/1/inventory/200.webp') }} 200w,
+    {{ asset('assets/img/blog/1/inventory/577.webp') }} 577w,
+    {{ asset('assets/img/blog/1/inventory/830.webp') }} 830w,
+    {{ asset('assets/img/blog/1/inventory/1077.webp') }} 1077w,
+    {{ asset('assets/img/blog/1/inventory/1284.webp') }} 1284w,
+    {{ asset('assets/img/blog/1/inventory/1400.webp') }} 1400w"
+    src="{{ asset('assets/img/blog/1/inventory/1400.webp') }}" height="933" width="1400">
+    </amp-img>
+    <amp-img alt="AI Inventory Management" layout="responsive" class="blog-picture"
     srcset="{{ asset('assets/img/blog/1/inventory/200.jpg') }} 200w,
     {{ asset('assets/img/blog/1/inventory/577.jpg') }} 577w,
     {{ asset('assets/img/blog/1/inventory/830.jpg') }} 830w,
@@ -96,7 +120,7 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
     {{ asset('assets/img/blog/1/inventory/1284.jpg') }} 1284w,
     {{ asset('assets/img/blog/1/inventory/1400.jpg') }} 1400w"
     src="{{ asset('assets/img/blog/1/inventory/1400.jpg') }}" height="933" width="1400">
-    </amp-img>
+    </amp-img></amp-img>
     <p class="blog-picture-desc">© Ai-Online-Shop.com, Photo by <a href="https://unsplash.com/@samuelzeller" target="_blank" class="quote-gr-blue fw500">Samuel Zeller</a></p>
 <p class="t-blog">It happened twice that I ordered one of my best-sellers too late. The consequence was that I lost my top-ranking spots to the competition. Something that should not happen twice.</p>
   <p class="t-blog">So, checking all the sales and manually updating the online stock can be an overwhelming task. Especially, when it comes to reordering best-sellers. What took me at least 1-3 hours per day, can be analyzed and precisely predicted by AI. The algorithm would use basic math for updating the stock and predict specific future trends in sales. </p>
@@ -108,6 +132,15 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
   <h2 class="m10">4. After-Sales Service on Autopilot</h2>
   <p class="t-blog">A very well-known fact in eCommerce is that the service does not stop after an item has been sold. Customers usually reach out to ask when their order was shipped and when it will arrive. Of course, there are plenty of other concerns that a customer might have. But those two are very common ones.</p>
   <amp-img alt="AI After-Sales Service on Autopilot" layout="responsive" class="blog-picture"
+  srcset="{{ asset('assets/img/blog/1/dhl/200.webp') }} 200w,
+  {{ asset('assets/img/blog/1/dhl/598.webp') }} 598w,
+  {{ asset('assets/img/blog/1/dhl/846.webp') }} 846w,
+  {{ asset('assets/img/blog/1/dhl/1098.webp') }} 1098w,
+  {{ asset('assets/img/blog/1/dhl/1310.webp') }} 1310w,
+  {{ asset('assets/img/blog/1/dhl/1400.webp') }} 1400w"
+  src="{{ asset('assets/img/blog/1/dhl/1400.webp') }}" height="934" width="1400">
+  </amp-img>
+  <amp-img alt="AI After-Sales Service on Autopilot" layout="responsive" class="blog-picture"
   srcset="{{ asset('assets/img/blog/1/dhl/200.jpg') }} 200w,
   {{ asset('assets/img/blog/1/dhl/598.jpg') }} 598w,
   {{ asset('assets/img/blog/1/dhl/846.jpg') }} 846w,
@@ -115,7 +148,7 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
   {{ asset('assets/img/blog/1/dhl/1310.jpg') }} 1310w,
   {{ asset('assets/img/blog/1/dhl/1400.jpg') }} 1400w"
   src="{{ asset('assets/img/blog/1/dhl/1400.jpg') }}" height="934" width="1400">
-  </amp-img>
+  </amp-img></amp-img>
   <p class="blog-picture-desc">© Ai-Online-Shop.com, Photo by <a href="https://unsplash.com/@purzlbaum" target="_blank" class="quote-gr-blue fw500">Claudio Schwarz</a></p>
   <p class="t-blog">Nevertheless, AI can provide you with valuable support in almost every after-sales scenario. On the one hand, AI could automatically send the package tracking via E-Mail, while on the other hand it also can check the tracking number if requested by the customer.</p>
   <h3>Let’s put this in perspective:</h3>
@@ -130,6 +163,15 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
 <p class="t-blog quote-gr-blue"><strong>People buy goods, where the service fits their needs. And a good service always comes along with good communication. Because as you know, communication is key!</strong> </p>
 <p class="t-blog">One solution, which focuses on great communication in an online environment is our friend the Chatbot. Especially, when he has been fine-tuned with AI.</p>
 <amp-img alt="AI Chat bot Improved Customer Communications" layout="responsive" class="blog-picture"
+srcset="{{ asset('assets/img/blog/1/bot/200.webp') }} 200w,
+{{ asset('assets/img/blog/1/bot/659.webp') }} 659w,
+{{ asset('assets/img/blog/1/bot/972.webp') }} 972w,
+{{ asset('assets/img/blog/1/bot/1192.webp') }} 1192w,
+{{ asset('assets/img/blog/1/bot/1346.webp') }} 1346w,
+{{ asset('assets/img/blog/1/bot/1400.webp') }} 1400w"
+src="{{ asset('assets/img/blog/1/bot/1400.webp') }}" height="939" width="1400">
+</amp-img>
+<amp-img alt="AI Chat bot Improved Customer Communications" layout="responsive" class="blog-picture"
 srcset="{{ asset('assets/img/blog/1/bot/200.jpg') }} 200w,
 {{ asset('assets/img/blog/1/bot/659.jpg') }} 659w,
 {{ asset('assets/img/blog/1/bot/972.jpg') }} 972w,
@@ -137,7 +179,7 @@ srcset="{{ asset('assets/img/blog/1/bot/200.jpg') }} 200w,
 {{ asset('assets/img/blog/1/bot/1346.jpg') }} 1346w,
 {{ asset('assets/img/blog/1/bot/1400.jpg') }} 1400w"
 src="{{ asset('assets/img/blog/1/bot/1400.jpg') }}" height="939" width="1400">
-</amp-img>
+</amp-img></amp-img>
 <p class="blog-picture-desc">© Ai-Online-Shop.com, Photo by <a href="https://unsplash.com/@kobuagency" target="_blank" class="quote-gr-blue fw500">Kobu Agency</a></p>
 <p class="t-blog">A well-developed Chatbot can do way much more than just answering questions. Chatbots, which use AI and machine learning can relate any conversation to previous ones and pick an optimized pathway to answer all sorts of questions. </p>
 <p class="t-blog">And with the benefit of machine learning, it can predict the best moment to suggest the right product to the right customer. And this is something that will not only help the customer, but drive Sales.</p>

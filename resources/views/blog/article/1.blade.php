@@ -82,6 +82,12 @@ body{
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+.cookie1{
+  background-color: #fd345a;
+  box-shadow: 0 14px 28px rgba(235,94,135,0.30), 0 10px 8px rgba(235,94,135,0.22);
+  width:50px;
+  height: 50px;
+}
 .button {
             display: inline-block;
             border: none;
@@ -560,8 +566,8 @@ width: auto;
   <amp-user-notification id="my-notification"
   class="sample-notification"
   layout="nodisplay">
-  This is an amp-user-notification. It uses local storage to store the dismissed state.
-  <button on="tap:my-notification.dismiss" class="button">I accept</button>
+  This site uses cookies to offer you a better browsing experience.
+  <button on="tap:my-notification.dismiss" class="cookie1 button">I accept</button>
 </amp-user-notification>
 @endslot
 @endcomponent
