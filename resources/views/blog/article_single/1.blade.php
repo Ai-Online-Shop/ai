@@ -60,7 +60,7 @@
     {{ asset('assets/img/blog/1/amazon/1185.webp') }} 1185w"
    src="{{ asset('assets/img/blog/1/amazon/1185.webp') }}" height="462" width="1185">
     </amp-img>
-    <amp-img alt="AI Search Algorithm of Amazon" layout="responsive" class="blog-picture"
+    <amp-img fallback alt="AI Search Algorithm of Amazon" layout="responsive" class="blog-picture"
     srcset="{{ asset('assets/img/blog/1/amazon/200.jpg') }} 200w,
     {{ asset('assets/img/blog/1/amazon/687.jpg') }} 687w,
     {{ asset('assets/img/blog/1/amazon/1059.jpg') }} 1059w,
@@ -82,7 +82,7 @@ srcset="{{ asset('assets/img/blog/1/bought/200.webp') }} 200w,
 {{ asset('assets/img/blog/1/bought/1225.webp') }} 1225w,
 {{ asset('assets/img/blog/1/bought/1400.webp') }} 1400w"
 src="{{ asset('assets/img/blog/1/bought/1400.webp') }}" height="791" width="1400">
-<amp-img alt="AI Better Product Recommendation" layout="responsive" class="blog-picture"
+<amp-img fallback alt="AI Better Product Recommendation" layout="responsive" class="blog-picture"
 srcset="{{ asset('assets/img/blog/1/bought/200.jpg') }} 200w,
 {{ asset('assets/img/blog/1/bought/538.jpg') }} 538w,
 {{ asset('assets/img/blog/1/bought/802.jpg') }} 802w,
@@ -112,7 +112,7 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
     {{ asset('assets/img/blog/1/inventory/1400.webp') }} 1400w"
     src="{{ asset('assets/img/blog/1/inventory/1400.webp') }}" height="933" width="1400">
     </amp-img>
-    <amp-img alt="AI Inventory Management" layout="responsive" class="blog-picture"
+    <amp-img fallback alt="AI Inventory Management" layout="responsive" class="blog-picture"
     srcset="{{ asset('assets/img/blog/1/inventory/200.jpg') }} 200w,
     {{ asset('assets/img/blog/1/inventory/577.jpg') }} 577w,
     {{ asset('assets/img/blog/1/inventory/830.jpg') }} 830w,
@@ -140,7 +140,7 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
   {{ asset('assets/img/blog/1/dhl/1400.webp') }} 1400w"
   src="{{ asset('assets/img/blog/1/dhl/1400.webp') }}" height="934" width="1400">
   </amp-img>
-  <amp-img alt="AI After-Sales Service on Autopilot" layout="responsive" class="blog-picture"
+  <amp-img fallback alt="AI After-Sales Service on Autopilot" layout="responsive" class="blog-picture"
   srcset="{{ asset('assets/img/blog/1/dhl/200.jpg') }} 200w,
   {{ asset('assets/img/blog/1/dhl/598.jpg') }} 598w,
   {{ asset('assets/img/blog/1/dhl/846.jpg') }} 846w,
@@ -171,7 +171,7 @@ srcset="{{ asset('assets/img/blog/1/bot/200.webp') }} 200w,
 {{ asset('assets/img/blog/1/bot/1400.webp') }} 1400w"
 src="{{ asset('assets/img/blog/1/bot/1400.webp') }}" height="939" width="1400">
 </amp-img>
-<amp-img alt="AI Chat bot Improved Customer Communications" layout="responsive" class="blog-picture"
+<amp-img fallback alt="AI Chat bot Improved Customer Communications" layout="responsive" class="blog-picture"
 srcset="{{ asset('assets/img/blog/1/bot/200.jpg') }} 200w,
 {{ asset('assets/img/blog/1/bot/659.jpg') }} 659w,
 {{ asset('assets/img/blog/1/bot/972.jpg') }} 972w,
