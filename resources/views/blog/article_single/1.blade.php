@@ -9,28 +9,52 @@
     <h3 class="tabelofcontent"><strong>Table of Content</strong></h3>
     <div class="content-navigation">
     <div class="contain-content-button" role="button" tabindex="0" on="tap:1.scrollTo(duration=500, position=top)">
-      <i class="material-icons icon-content">turned_in</i><p class="content-button">Artificial Intelligence in eCommerce</p>
+      <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+      </div>
+      <p class="content-button">Artificial Intelligence in eCommerce</p>
     </div>
     <div class="contain-content-button" role="button" tabindex="0" on="tap:2.scrollTo(duration=500, position=top)">
-      <i class="material-icons icon-content">turned_in</i><p class="content-button">1. More effective Search Algorithm</p>
+      <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+      </div>
+      <p class="content-button">1. More effective Search Algorithm</p>
     </div>
     <div class="contain-content-button" role="button" tabindex="0" on="tap:3.scrollTo(duration=500, position=top)">
-      <i class="material-icons icon-content">turned_in</i><p class="content-button">2. Better Product Recommendation</p>
+      <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+      </div>
+      <p class="content-button">2. Better Product Recommendation</p>
     </div>
     <div class="contain-content-button" role="button" tabindex="0" on="tap:4.scrollTo(duration=500, position=top)">
-      <i class="material-icons icon-content">turned_in</i><p class="content-button">3. Inventory Management</p>
+      <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+      </div>
+      <p class="content-button">3. Inventory Management</p>
     </div>
     <div class="contain-content-button" role="button" tabindex="0" on="tap:5.scrollTo(duration=500, position=top)">
-      <i class="material-icons icon-content">turned_in</i><p class="content-button">4. After-Sales Service on Autopilot</p>
+      <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+      </div>
+      <p class="content-button">4. After-Sales Service on Autopilot</p>
     </div>
     <div class="contain-content-button" role="button" tabindex="0" on="tap:6.scrollTo(duration=500, position=top)">
-      <i class="material-icons icon-content">turned_in</i><p class="content-button">5. Improved Customer Communications</p>
+      <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+      </div>
+      <p class="content-button">5. Improved Customer Communications</p>
     </div>
     <div class="contain-content-button" role="button" tabindex="0" on="tap:7.scrollTo(duration=500, position=top)">
-      <i class="material-icons icon-content">turned_in</i><p class="content-button">AI Online Shop Software</p>
+      <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+      </div>
+      <p class="content-button">AI Online Shop Software</p>
     </div>
     <div class="contain-content-button" role="button" tabindex="0" on="tap:8.scrollTo(duration=500, position=top)">
-      <i class="material-icons icon-content">turned_in</i><p class="content-button">Conclusion</p>
+      <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+      </div>
+      <p class="content-button">Conclusion</p>
     </div>
   </div>
 </div>
