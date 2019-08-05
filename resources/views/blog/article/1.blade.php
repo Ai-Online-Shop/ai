@@ -450,14 +450,28 @@ width: auto;
 
 @slot('content')
 <div class="container">
+  <amp-img alt="{{ $title }}" class="mobile layer-black" layout="responsive" srcset="
+  {{ asset('assets/img/blog/'.$id. '/start/70.webp') }} 70w,
+  {{ asset('assets/img/blog/'.$id. '/start/456.webp') }} 456w,
+  {{ asset('assets/img/blog/'.$id. '/start/709.webp') }} 709w,
+  {{ asset('assets/img/blog/'.$id. '/start/887.webp') }} 887w,
+  {{ asset('assets/img/blog/'.$id. '/start/1000.webp') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/1000.webp') }}" height="1298" width="1000">
+  <div fallback>
     <amp-img alt="{{ $title }}" class="mobile layer-black" layout="responsive" srcset="
-    {{ asset('assets/img/blog/'.$id. '/start/200.jpg') }} 200w,
-    {{ asset('assets/img/blog/'.$id. '/start/459.jpg') }} 459w,
-    {{ asset('assets/img/blog/'.$id. '/start/648.jpg') }} 648w,
-    {{ asset('assets/img/blog/'.$id. '/start/805.jpg') }} 805w,
-    {{ asset('assets/img/blog/'.$id. '/start/932.jpg') }} 932w,
-    {{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }}" height="1500" width="1000">
+    {{ asset('assets/img/blog/'.$id. '/start/70.jpg') }} 70w,
+    {{ asset('assets/img/blog/'.$id. '/start/456.jpg') }} 456w,
+    {{ asset('assets/img/blog/'.$id. '/start/709.jpg') }} 709w,
+    {{ asset('assets/img/blog/'.$id. '/start/887.jpg') }} 887w,
+    {{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }}" height="1298" width="1000">
     </amp-img>
+    </div>
+    <amp-img alt="{{ $title }}" class="desktop layer-black" layout="responsive" srcset="
+    {{ asset('assets/img/blog/'.$id. '/social/200.webp') }} 200w,
+    {{ asset('assets/img/blog/'.$id. '/social/490.webp') }} 490w,
+    {{ asset('assets/img/blog/'.$id. '/social/690.webp') }} 690w,
+    {{ asset('assets/img/blog/'.$id. '/social/888.webp') }} 888w,
+    {{ asset('assets/img/blog/'.$id. '/social/1024.webp') }} 1024w" src="{{ asset('assets/img/blog/'.$id. '/social/1024.webp') }}" height="512" width="1024">
+    <div fallback>
     <amp-img alt="{{ $title }}" class="desktop layer-black" layout="responsive" srcset="
     {{ asset('assets/img/blog/'.$id. '/social/200.jpg') }} 200w,
     {{ asset('assets/img/blog/'.$id. '/social/490.jpg') }} 490w,
@@ -465,6 +479,7 @@ width: auto;
     {{ asset('assets/img/blog/'.$id. '/social/888.jpg') }} 888w,
     {{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }} 1024w" src="{{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }}" height="512" width="1024">
     </amp-img>
+    </div>
     <div class="text-container">
     <h1 class="header-text">{{ $title }}</h1>
     </div>
@@ -489,6 +504,15 @@ width: auto;
                 <p class="text-sp-lb m20">More Information</p>
                 <h1 class="text-social-lb">About the Author.</h1>
                 <div class="author m12">
+                  <amp-img alt="{{ $author }}" class="author-avatar" layout="fill" srcset="
+                  {{ asset('assets/img/author/'. $author_img .'/200.jpg') }} 200w,
+        {{ asset('assets/img/author/'. $author_img .'/356.webp') }} 356w,
+        {{ asset('assets/img/author/'. $author_img .'/480.webp') }} 480w,
+        {{ asset('assets/img/author/'. $author_img .'/586.webp') }} 586w,
+        {{ asset('assets/img/author/'. $author_img .'/685.webp') }} 685w,
+        {{ asset('assets/img/author/'. $author_img .'/770.webp') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.webp') }}">
+                  </amp-img>
+                  <div fallback>
                     <amp-img alt="{{ $author }}" class="author-avatar" layout="fill" srcset="{{ asset('assets/img/author/'. $author_img .'/200.jpg') }} 200w,
           {{ asset('assets/img/author/'. $author_img .'/356.jpg') }} 356w,
           {{ asset('assets/img/author/'. $author_img .'/480.jpg') }} 480w,
@@ -496,6 +520,7 @@ width: auto;
           {{ asset('assets/img/author/'. $author_img .'/685.jpg') }} 685w,
           {{ asset('assets/img/author/'. $author_img .'/770.jpg') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.jpg') }}">
                     </amp-img>
+                  </div>
                     <div class="author-text">
                         <p class="p-author">{{ $author }}</p>
                         <p class="p-date">{{ $published . '  ·  ' . $mins_read . ' min read' }}</p>
@@ -515,6 +540,15 @@ width: auto;
   <div class="white-bordered">
 <div class="container-content">
     <div class="author">
+      <amp-img alt="{{ $author }}" class="author-avatar" layout="fill" srcset="
+      {{ asset('assets/img/author/'. $author_img .'/200.jpg') }} 200w,
+{{ asset('assets/img/author/'. $author_img .'/356.webp') }} 356w,
+{{ asset('assets/img/author/'. $author_img .'/480.webp') }} 480w,
+{{ asset('assets/img/author/'. $author_img .'/586.webp') }} 586w,
+{{ asset('assets/img/author/'. $author_img .'/685.webp') }} 685w,
+{{ asset('assets/img/author/'. $author_img .'/770.webp') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.webp') }}">
+      </amp-img>
+      <div fallback>
       <amp-img alt="{{ $author }}" class="author-avatar" layout="fill" srcset="{{ asset('assets/img/author/'. $author_img .'/200.jpg') }} 200w,
 {{ asset('assets/img/author/'. $author_img .'/356.jpg') }} 356w,
 {{ asset('assets/img/author/'. $author_img .'/480.jpg') }} 480w,
@@ -522,6 +556,7 @@ width: auto;
 {{ asset('assets/img/author/'. $author_img .'/685.jpg') }} 685w,
 {{ asset('assets/img/author/'. $author_img .'/770.jpg') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.jpg') }}">
       </amp-img>
+    </div>
         <div class="author-text">
             <p class="p-author">{{ $author }}</p>
             <p class="p-date">{{ $published . '  ·  ' . $mins_read . ' min read' }}</p>
