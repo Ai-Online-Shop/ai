@@ -463,6 +463,7 @@ width: auto;
     {{ asset('assets/img/blog/'.$id. '/start/887.jpg') }} 887w,
     {{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }}" height="1298" width="1000">
     </amp-img>
+    </amp-img>
     <amp-img alt="{{ $title }}" class="desktop layer-black" layout="responsive" srcset="
     {{ asset('assets/img/blog/'.$id. '/social/200.webp') }} 200w,
     {{ asset('assets/img/blog/'.$id. '/social/490.webp') }} 490w,
@@ -475,7 +476,7 @@ width: auto;
     {{ asset('assets/img/blog/'.$id. '/social/690.jpg') }} 690w,
     {{ asset('assets/img/blog/'.$id. '/social/888.jpg') }} 888w,
     {{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }} 1024w" src="{{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }}" height="512" width="1024">
-    </amp-img>
+    </amp-img></amp-img>
     <div class="text-container">
     <h1 class="header-text">{{ $title }}</h1>
     </div>
@@ -513,7 +514,7 @@ width: auto;
             {{ asset('assets/img/author/'. $author_img .'/586.jpg') }} 586w,
             {{ asset('assets/img/author/'. $author_img .'/685.jpg') }} 685w,
             {{ asset('assets/img/author/'. $author_img .'/770.jpg') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.jpg') }}">
-                  </amp-img>
+                  </amp-img></amp-img>
                     <div class="author-text">
                         <p class="p-author">{{ $author }}</p>
                         <p class="p-date">{{ $published . '  ·  ' . $mins_read . ' min read' }}</p>
@@ -546,7 +547,7 @@ width: auto;
 {{ asset('assets/img/author/'. $author_img .'/586.jpg') }} 586w,
 {{ asset('assets/img/author/'. $author_img .'/685.jpg') }} 685w,
 {{ asset('assets/img/author/'. $author_img .'/770.jpg') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.jpg') }}">
-      </amp-img>
+      </amp-img></amp-img>
         <div class="author-text">
             <p class="p-author">{{ $author }}</p>
             <p class="p-date">{{ $published . '  ·  ' . $mins_read . ' min read' }}</p>
