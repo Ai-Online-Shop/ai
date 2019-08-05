@@ -55,8 +55,10 @@
 
 @slot('css')
 <style amp-custom>
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
 body{
   font-family: 'Roboto', sans-serif;
+  font-display: auto;
 }
 .material-icons {
   font-family: 'Material Icons';
@@ -205,7 +207,7 @@ body{
 	-webkit-text-fill-color: transparent;
 }
 .fw500{
-  font-weight: 500;
+  font-weight: 400;
 }
 .mback{
   vertical-align: text-bottom;
