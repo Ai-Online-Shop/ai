@@ -54,14 +54,15 @@
     <p class="t-blog">With the help of <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" class="quote-gr-blue fw500">machine learning</a> (AI techniques which use statistical methods to enable machines to improve with experience) the software can predict what you are searching for.</p>
     <p class="t-blog">A great example is the search algorithm of Amazon. Just try to type the first 2 letters of a product you regularly order online. Like toothbrushes or toilet paper. You will see that Amazon will suggest you exactly what you are looking for. And this is entirely based on the combination of statistics and data.</p>
     <amp-img alt="AI Search Algorithm of Amazon" layout="responsive" class="blog-picture"
-    srcset="{{ asset('assets/img/blog/1/amazon/200.webp') }} 200w,
+    srcset="
+    {{ asset('assets/img/blog/1/amazon/200.webp') }} 200w,
     {{ asset('assets/img/blog/1/amazon/687.webp') }} 687w,
     {{ asset('assets/img/blog/1/amazon/1059.webp') }} 1059w,
     {{ asset('assets/img/blog/1/amazon/1185.webp') }} 1185w"
    src="{{ asset('assets/img/blog/1/amazon/1185.webp') }}" height="462" width="1185">
-    </amp-img>
     <amp-img fallback alt="AI Search Algorithm of Amazon" layout="responsive" class="blog-picture"
-    srcset="{{ asset('assets/img/blog/1/amazon/200.jpg') }} 200w,
+    srcset="
+    {{ asset('assets/img/blog/1/amazon/200.jpg') }} 200w,
     {{ asset('assets/img/blog/1/amazon/687.jpg') }} 687w,
     {{ asset('assets/img/blog/1/amazon/1059.jpg') }} 1059w,
     {{ asset('assets/img/blog/1/amazon/1185.jpg') }} 1185w"
@@ -75,16 +76,17 @@
 <p class="t-blog">AI used for product recommendations might be the most important aspect for your business, to increase the cross-sales of your Online Shop. Similar to the search algorithms, a sufficient product recommendation algorithm would be based on <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" class="quote-gr-blue fw500">machine learning.</a></p>
 <p class="t-blog">Generally, the more users are visiting your shop, the more data can be stored and later analyzed by the algorithm. Therefore, the final results in the cross-selling section will be more and more individualized.</p>
 <amp-img alt="AI Better Product Recommendation" layout="responsive" class="blog-picture"
-srcset="{{ asset('assets/img/blog/1/bought/200.webp') }} 200w,
+srcset="
+{{ asset('assets/img/blog/1/bought/200.webp') }} 200w,
 {{ asset('assets/img/blog/1/bought/538.webp') }} 538w,
 {{ asset('assets/img/blog/1/bought/802.webp') }} 802w,
 {{ asset('assets/img/blog/1/bought/1024.webp') }} 1024w,
 {{ asset('assets/img/blog/1/bought/1225.webp') }} 1225w,
 {{ asset('assets/img/blog/1/bought/1400.webp') }} 1400w"
 src="{{ asset('assets/img/blog/1/bought/1400.webp') }}" height="791" width="1400">
-
 <amp-img fallback alt="AI Better Product Recommendation" layout="responsive" class="blog-picture"
-srcset="{{ asset('assets/img/blog/1/bought/200.jpg') }} 200w,
+srcset="
+{{ asset('assets/img/blog/1/bought/200.jpg') }} 200w,
 {{ asset('assets/img/blog/1/bought/538.jpg') }} 538w,
 {{ asset('assets/img/blog/1/bought/802.jpg') }} 802w,
 {{ asset('assets/img/blog/1/bought/1024.jpg') }} 1024w,
@@ -112,7 +114,6 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
     {{ asset('assets/img/blog/1/inventory/1284.webp') }} 1284w,
     {{ asset('assets/img/blog/1/inventory/1400.webp') }} 1400w"
     src="{{ asset('assets/img/blog/1/inventory/1400.webp') }}" height="933" width="1400">
-    </amp-img>
     <amp-img fallback alt="AI Inventory Management" layout="responsive" class="blog-picture"
     srcset="{{ asset('assets/img/blog/1/inventory/200.jpg') }} 200w,
     {{ asset('assets/img/blog/1/inventory/577.jpg') }} 577w,
@@ -140,7 +141,6 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
   {{ asset('assets/img/blog/1/dhl/1310.webp') }} 1310w,
   {{ asset('assets/img/blog/1/dhl/1400.webp') }} 1400w"
   src="{{ asset('assets/img/blog/1/dhl/1400.webp') }}" height="934" width="1400">
-  </amp-img>
   <amp-img fallback alt="AI After-Sales Service on Autopilot" layout="responsive" class="blog-picture"
   srcset="{{ asset('assets/img/blog/1/dhl/200.jpg') }} 200w,
   {{ asset('assets/img/blog/1/dhl/598.jpg') }} 598w,
@@ -171,7 +171,6 @@ srcset="{{ asset('assets/img/blog/1/bot/200.webp') }} 200w,
 {{ asset('assets/img/blog/1/bot/1346.webp') }} 1346w,
 {{ asset('assets/img/blog/1/bot/1400.webp') }} 1400w"
 src="{{ asset('assets/img/blog/1/bot/1400.webp') }}" height="939" width="1400">
-</amp-img>
 <amp-img fallback alt="AI Chat bot Improved Customer Communications" layout="responsive" class="blog-picture"
 srcset="{{ asset('assets/img/blog/1/bot/200.jpg') }} 200w,
 {{ asset('assets/img/blog/1/bot/659.jpg') }} 659w,
