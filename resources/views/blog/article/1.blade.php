@@ -55,10 +55,8 @@
 
 @slot('css')
 <style amp-custom>
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
 body{
   font-family: 'Roboto', sans-serif;
-  font-display: auto;
 }
 .material-icons {
   font-family: 'Material Icons';
