@@ -37,7 +37,7 @@
           "@type": "Organization",
           "name": "{{$store}}",
           "logo": {
-            "@type": "ImageObject",
+            "@type": "ImageObjec",
             "url": "{{ Request::url() . $store_logo }}",
             "width": 60,
             "height": 60
