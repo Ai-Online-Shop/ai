@@ -29,7 +29,7 @@ class BlogController extends Controller
 
         $storeoption = StoreOption::firstOrFail();
         $store = $storeoption->store;
-        $store_logo = $storeoption->store_logo;
+        $store_logo = "/assets/img/store/logo/store-logo-small.jpf";
         $article_layout = $storeoption->article_layout;
 
         $author_id = $post->author_id;

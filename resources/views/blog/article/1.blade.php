@@ -38,7 +38,7 @@
           "name": "{{$store}}",
           "logo": {
             "@type": "ImageObject",
-            "url": "{{ $store_logo }}",
+            "url": "{{ Request::url() . $store_logo }}",
             "width": 60,
             "height": 60
           }
@@ -211,6 +211,16 @@ body{
   vertical-align: text-bottom;
   color: #222;
 }
+:root {
+    --space-2: 1rem;   /* 16px */
+  }
+  /* Center the notification content */
+  amp-user-notification.sample-notification {
+    padding: var(--space-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
    amp-social-share.rounded {
      border-radius: 20%;
      background-size: 68%;
@@ -521,5 +531,11 @@ width: auto;
 @include('blog.article_single.' . $id)
 </div>
   </div>
+  <amp-user-notification id="my-notification"
+  class="sample-notification"
+  layout="nodisplay">
+  This is an amp-user-notification. It uses local storage to store the dismissed state.
+  <button on="tap:my-notification.dismiss" class="button">I accept</button>
+</amp-user-notification>
 @endslot
 @endcomponent
