@@ -85,8 +85,9 @@ body{
 .cookie1{
   background-color: #fd345a;
   box-shadow: 0 14px 28px rgba(235,94,135,0.30), 0 10px 8px rgba(235,94,135,0.22);
-  width:50px;
-  height: 50px;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 15px 10px 15px;
 }
 .button {
             display: inline-block;
