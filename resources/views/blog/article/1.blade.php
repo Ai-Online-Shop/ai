@@ -456,30 +456,26 @@ width: auto;
   {{ asset('assets/img/blog/'.$id. '/start/709.webp') }} 709w,
   {{ asset('assets/img/blog/'.$id. '/start/887.webp') }} 887w,
   {{ asset('assets/img/blog/'.$id. '/start/1000.webp') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/1000.webp') }}" height="1298" width="1000">
-  <div fallback>
-    <amp-img alt="{{ $title }}" class="mobile layer-black" layout="responsive" srcset="
+    <amp-img fallback alt="{{ $title }}" class="mobile layer-black" layout="responsive" srcset="
     {{ asset('assets/img/blog/'.$id. '/start/70.jpg') }} 70w,
     {{ asset('assets/img/blog/'.$id. '/start/456.jpg') }} 456w,
     {{ asset('assets/img/blog/'.$id. '/start/709.jpg') }} 709w,
     {{ asset('assets/img/blog/'.$id. '/start/887.jpg') }} 887w,
     {{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }}" height="1298" width="1000">
     </amp-img>
-    </div>
     <amp-img alt="{{ $title }}" class="desktop layer-black" layout="responsive" srcset="
     {{ asset('assets/img/blog/'.$id. '/social/200.webp') }} 200w,
     {{ asset('assets/img/blog/'.$id. '/social/490.webp') }} 490w,
     {{ asset('assets/img/blog/'.$id. '/social/690.webp') }} 690w,
     {{ asset('assets/img/blog/'.$id. '/social/888.webp') }} 888w,
     {{ asset('assets/img/blog/'.$id. '/social/1024.webp') }} 1024w" src="{{ asset('assets/img/blog/'.$id. '/social/1024.webp') }}" height="512" width="1024">
-    <div fallback>
-    <amp-img alt="{{ $title }}" class="desktop layer-black" layout="responsive" srcset="
+    <amp-img fallback alt="{{ $title }}" class="desktop layer-black" layout="responsive" srcset="
     {{ asset('assets/img/blog/'.$id. '/social/200.jpg') }} 200w,
     {{ asset('assets/img/blog/'.$id. '/social/490.jpg') }} 490w,
     {{ asset('assets/img/blog/'.$id. '/social/690.jpg') }} 690w,
     {{ asset('assets/img/blog/'.$id. '/social/888.jpg') }} 888w,
     {{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }} 1024w" src="{{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }}" height="512" width="1024">
     </amp-img>
-    </div>
     <div class="text-container">
     <h1 class="header-text">{{ $title }}</h1>
     </div>
@@ -506,21 +502,18 @@ width: auto;
                 <div class="author m12">
                   <amp-img alt="{{ $author }}" class="author-avatar" layout="fill" srcset="
                   {{ asset('assets/img/author/'. $author_img .'/200.jpg') }} 200w,
-        {{ asset('assets/img/author/'. $author_img .'/356.webp') }} 356w,
-        {{ asset('assets/img/author/'. $author_img .'/480.webp') }} 480w,
-        {{ asset('assets/img/author/'. $author_img .'/586.webp') }} 586w,
-        {{ asset('assets/img/author/'. $author_img .'/685.webp') }} 685w,
-        {{ asset('assets/img/author/'. $author_img .'/770.webp') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.webp') }}">
+            {{ asset('assets/img/author/'. $author_img .'/356.webp') }} 356w,
+            {{ asset('assets/img/author/'. $author_img .'/480.webp') }} 480w,
+            {{ asset('assets/img/author/'. $author_img .'/586.webp') }} 586w,
+            {{ asset('assets/img/author/'. $author_img .'/685.webp') }} 685w,
+            {{ asset('assets/img/author/'. $author_img .'/770.webp') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.webp') }}">
+                  <amp-img fallback alt="{{ $author }}" class="author-avatar" layout="fill" srcset="{{ asset('assets/img/author/'. $author_img .'/200.jpg') }} 200w,
+            {{ asset('assets/img/author/'. $author_img .'/356.jpg') }} 356w,
+            {{ asset('assets/img/author/'. $author_img .'/480.jpg') }} 480w,
+            {{ asset('assets/img/author/'. $author_img .'/586.jpg') }} 586w,
+            {{ asset('assets/img/author/'. $author_img .'/685.jpg') }} 685w,
+            {{ asset('assets/img/author/'. $author_img .'/770.jpg') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.jpg') }}">
                   </amp-img>
-                  <div fallback>
-                    <amp-img alt="{{ $author }}" class="author-avatar" layout="fill" srcset="{{ asset('assets/img/author/'. $author_img .'/200.jpg') }} 200w,
-          {{ asset('assets/img/author/'. $author_img .'/356.jpg') }} 356w,
-          {{ asset('assets/img/author/'. $author_img .'/480.jpg') }} 480w,
-          {{ asset('assets/img/author/'. $author_img .'/586.jpg') }} 586w,
-          {{ asset('assets/img/author/'. $author_img .'/685.jpg') }} 685w,
-          {{ asset('assets/img/author/'. $author_img .'/770.jpg') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.jpg') }}">
-                    </amp-img>
-                  </div>
                     <div class="author-text">
                         <p class="p-author">{{ $author }}</p>
                         <p class="p-date">{{ $published . '  ·  ' . $mins_read . ' min read' }}</p>
@@ -547,16 +540,13 @@ width: auto;
 {{ asset('assets/img/author/'. $author_img .'/586.webp') }} 586w,
 {{ asset('assets/img/author/'. $author_img .'/685.webp') }} 685w,
 {{ asset('assets/img/author/'. $author_img .'/770.webp') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.webp') }}">
-      </amp-img>
-      <div fallback>
-      <amp-img alt="{{ $author }}" class="author-avatar" layout="fill" srcset="{{ asset('assets/img/author/'. $author_img .'/200.jpg') }} 200w,
+      <amp-img fallback alt="{{ $author }}" class="author-avatar" layout="fill" srcset="{{ asset('assets/img/author/'. $author_img .'/200.jpg') }} 200w,
 {{ asset('assets/img/author/'. $author_img .'/356.jpg') }} 356w,
 {{ asset('assets/img/author/'. $author_img .'/480.jpg') }} 480w,
 {{ asset('assets/img/author/'. $author_img .'/586.jpg') }} 586w,
 {{ asset('assets/img/author/'. $author_img .'/685.jpg') }} 685w,
 {{ asset('assets/img/author/'. $author_img .'/770.jpg') }} 770w" src="{{ asset('assets/img/author/'. $author_img .'/770.jpg') }}">
       </amp-img>
-    </div>
         <div class="author-text">
             <p class="p-author">{{ $author }}</p>
             <p class="p-date">{{ $published . '  ·  ' . $mins_read . ' min read' }}</p>
