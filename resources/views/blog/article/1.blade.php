@@ -138,8 +138,12 @@ body{
 }
 .text-container{
   position: absolute;
-  bottom: 10px;
-  padding: 0px 35px 0px 35px;
+  bottom: 7%;
+  max-width:700px;
+  right: 0;
+    left: 0;
+    margin: auto;
+  padding: 0px 25px 0px 25px;
   text-align: center;
 }
 .header-text{
@@ -149,6 +153,7 @@ body{
 .p-section{
   color: #fff;
   font-size: 14px;
+  margin-bottom: -5px;
 text-transform: uppercase;
 letter-spacing: .05em;
 font-weight: 600;
@@ -327,14 +332,6 @@ width: auto;
   background: #ffffff;
   padding: 0 30px 0 30px;
 }
-.white-bordered{
-  background: #fff;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  margin-top: -5%;
-  position: relative;
-  box-shadow: 0 1px 0 0 rgba(0,0,0,.09), 0 1px 2px 0 rgba(0,0,0,.09), 0 10px 20px 0 rgba(0,0,0,.09);
-}
 .container-content{
   padding: 10px 45px 10px 45px
 }
@@ -342,6 +339,14 @@ width: auto;
   margin: -5px 0 -25px 0;
 }
 .h-topic{
+  height: 38px;
+  min-width: 150px;
+  line-height: 1.3;
+  padding: 5px 7px 5px 7px;
+  margin-right: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
   bottom: -40px;
   right: 12%;
   z-index: 100;
@@ -391,7 +396,7 @@ width: auto;
 
 @media (min-width: 1024px){
   .header-text{
-    font-size: 40px;
+    font-size: 43px;
   }
   .desktop-container{
     background: #ffffff;
@@ -415,7 +420,7 @@ width: auto;
 
 @media (min-width: 1200px){
   .header-text{
-    font-size: 40px;
+    font-size: 50px;
   }
   .desktop-container{
     background: #ffffff;
@@ -441,6 +446,12 @@ width: auto;
   overflow: hidden;
   background: #000;
 }
+.span-h{
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 10px;
+}
 </style>
 
 @endslot
@@ -451,7 +462,7 @@ width: auto;
 layout="nodisplay">
 <script type="application/json">
   {
-  "duration": "2s",
+  "duration": "0.2s",
   "fill": "both",
   "direction": "alternate",
     "selector": "#blackmirror",
@@ -518,7 +529,10 @@ layout="nodisplay">
     </div>
   </div>
     <button class="h-topic button" on="tap:my-lightbox">
+      <div class="icon-content">
 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="margin-top: 3px"><path d="M0 0h24v24H0z" fill="none"/><path fill="white" d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+</div>
+<span class="desktop span-h">Love it?<br>Share it!</span>
 </button>
 </div>
     <div>
@@ -566,7 +580,6 @@ layout="nodisplay">
         </amp-lightbox>
     </div>
 <div class="desktop-container">
-  <div class="white-bordered">
 <div class="container-content">
     <div class="author">
       <amp-img alt="{{ $author }}" class="author-avatar" layout="fill" srcset="
@@ -590,7 +603,6 @@ layout="nodisplay">
     </div>
 </div>
 @include('blog.article_single.' . $id)
-</div>
   </div>
   <amp-user-notification id="my-notification"
   class="sample-notification"
