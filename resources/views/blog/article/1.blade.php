@@ -304,6 +304,7 @@ align-items: center;
   height: 50px;
   color: #000;
 }
+
 .content-navigation{
   order: 2;
 overflow-y: hidden;
@@ -325,6 +326,10 @@ width: auto;
   .desktop{
     display: block
   }
+  .icon-con{
+    padding-right: 5px;
+    margin-bottom: 20px;
+  }
   .header-text{
     font-size: 32px;
   }
@@ -339,16 +344,14 @@ width: auto;
   margin: -5px 0 -25px 0;
 }
 .h-topic{
-  height: 38px;
-  min-width: 150px;
-  line-height: 1.3;
+  height: 44px;
+  min-width: 125px;
   padding: 5px 7px 5px 7px;
   margin-right: 15px;
   border-radius: 8px;
   display: flex;
   align-items: center;
-  bottom: -40px;
-  right: 12%;
+  right: 10%;
   z-index: 100;
 }
 .p-date2{
@@ -360,11 +363,6 @@ width: auto;
 .lightbox{
   padding: 60px 85px 60px 85px;
 }
-.backbox{
-  bottom: 200px;
-  left: 85px;
-  padding:13px;
-}
 .mwidth1{
   max-width: 380px;
 }
@@ -373,6 +371,14 @@ width: auto;
 @media (min-width: 768px){
   .header-text{
     font-size: 35px;
+  }.backbox{
+    bottom: 92%;
+  }
+  .lightcont{
+    max-width:700px;
+    right: 0;
+      left: 0;
+      margin: auto;
   }
   .desktop-container{
     background: #ffffff;
@@ -389,7 +395,6 @@ width: auto;
     margin-top: 70px;
   }
   .h-topic{
-    bottom: -45px;
     right: 15%;
   }
 }
@@ -413,7 +418,6 @@ width: auto;
     margin-top: 80px;
   }
   .h-topic{
-    bottom: -50px;
     right: 20%;
   }
 }
@@ -434,10 +438,9 @@ width: auto;
     margin: 15px 0 -7% 0;
   }
   .p-date2{
-    margin-top: 8%;
+    margin-top: 10%;
   }
   .h-topic{
-    bottom: -45px;
     right: 29%;
   }
 }
@@ -450,7 +453,8 @@ width: auto;
   color: #fff;
   font-size: 12px;
   text-align: left;
-  padding-left: 10px;
+  padding-left: 5px;
+  margin-bottom: 22px;
 }
 </style>
 
@@ -529,8 +533,8 @@ layout="nodisplay">
     </div>
   </div>
     <button class="h-topic button" on="tap:my-lightbox">
-      <div class="icon-content">
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="margin-top: 3px"><path d="M0 0h24v24H0z" fill="none"/><path fill="white" d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      <div class="icon-con">
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="margin-top: 2px"><path d="M0 0h24v24H0z" fill="none"/><path fill="white" d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
 </div>
 <span class="desktop span-h">Love it?<br>Share it!</span>
 </button>
@@ -538,6 +542,7 @@ layout="nodisplay">
     <div>
         <amp-lightbox id="my-lightbox" layout="nodisplay">
             <div class="lightbox" on="tap:my-lightbox.close" role="button" tabindex="0">
+              <div class="lightcont">
                 <p class="text-sp-lb">Social Sharing</p>
                 <h1 class="text-social-lb">Spread the Word.</h1>
                 <div class="mwidth1">
@@ -576,6 +581,7 @@ layout="nodisplay">
                 <div class="backbox">
                     <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/></svg>
                 </div>
+                  </div>
             </div>
         </amp-lightbox>
     </div>
