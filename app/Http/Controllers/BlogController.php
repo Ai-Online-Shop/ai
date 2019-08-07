@@ -21,7 +21,9 @@ class BlogController extends Controller
         $id = $post->id;
         $title = $post->title;
         $desc = $post->desc;
-        $coded_longtext = $post->coded_longtext;
+        $section = $post->section;
+        $tags = $post->tags;
+
 
         $published = date("d F, Y", strtotime($post->created_at));
         $modified = date("d F, Y", strtotime($post->updated_at));
@@ -37,19 +39,15 @@ class BlogController extends Controller
         $author = $a->author;
         $author_des = $a->author_des;
         $author_img = $a->author_img;
-
-        $author_facebook = $a->facebook;
         $author_twitter = $a->twitter;
-        $author_pinterest = $a->pinterest;
-        $author_linkedin = $a->linkedin;
-        $author_medium = $a->medium;
-        $author_phone = $a->phone;
-        $author_whatsapp = $a->whatsapp;
+
+
 
         return view('blog.article.'.$article_layout, compact(
             'title',
             'id',
-            'coded_longtext',
+            'section',
+            'tags',
             'modified',
             'desc',
             'mins_read',
@@ -57,14 +55,8 @@ class BlogController extends Controller
             'author',
             'store',
             'author_des',
-            'author_img',
-            'author_facebook',
             'author_twitter',
-            'author_pinterest',
-            'author_linkedin',
-            'author_medium',
-            'author_whatsapp',
-            'author_phone'
+            'author_img'
       ));
     }
 }
