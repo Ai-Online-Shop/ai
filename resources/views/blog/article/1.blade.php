@@ -319,7 +319,7 @@ align-items: center;
 
 .content-navigation{
   order: 2;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
 overflow-y: hidden;
 overflow-x: scroll;
 -webkit-overflow-scrolling: touch;

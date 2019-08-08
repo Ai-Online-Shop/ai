@@ -10,21 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-use App\Blog;
 
-$locations = Blog::where('active', 1)->get();
-
-foreach ($locations as $location) {
-    Route::group(
-        [
-        'prefix' => LaravelLocalization::setLocale($location->language_code),
-        'middleware' => ['localize', 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
-    ],
-        function () {
-            Route::get('/{blog_slug}', 'BlogController@blog_single');
-        }
-);
-}
+Route::get('/{blog_slug}', 'BlogController@blog_single');
 
 Route::group(
     [

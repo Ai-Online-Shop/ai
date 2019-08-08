@@ -16,7 +16,7 @@ class BlogController extends Controller
 {
     public function blog_single(Request $request, $blog_slug)
     {
-        $post = Blog::where('slug', $blog_slug)
+        $post = Blog::where('slug', $blog_slug)->where('active', 1)
             ->firstOrFail();
         $id = $post->id;
         $title = $post->title;
