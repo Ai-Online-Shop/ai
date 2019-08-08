@@ -40,7 +40,7 @@
       <div class="icon-content">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
       </div>
-      <p class="content-button">5. Verbesserte Kundenkommunikation</p>
+      <p class="content-button">5. Verbesserte Kommunikation</p>
     </div>
     <div class="contain-content-button" role="button" tabindex="0" on="tap:7.scrollTo(duration=500, position=top)">
       <div class="icon-content">
@@ -52,7 +52,7 @@
       <div class="icon-content">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
       </div>
-      <p class="content-button">Fazit</p>
+      <p class="content-button">Mein Fazit</p>
     </div>
   </div>
 </div>
@@ -220,7 +220,7 @@ src="{{ asset('assets/img/blog/2/bot/1400.jpg') }}" height="939" width="1400">
 </div>
 <span id="8"></span>
 <div class="container-content">
-  <h2 class="m10">Fazit</h2>
+  <h2 class="m10">Mein Fazit</h2>
   <p class="t-blog">AKünstliche Intelligenz wird in der Zukunft des E-Commerce eine wichtige Rolle spielen. Ob unter dem Aspekt der Zeitersparnis oder der Effizienzsteigerung von Prozessen. So oder so wird es die Branche revolutionieren. </p>
     <p class="t-blog">Meine persönliche Meinung zu KI im E-Commerce ist ziemlich eindeutig. Wer KI am effizientesten einsetzt, gewinnt die meisten Kunden. Daher würde ich jedem Folgendes vorschlagen:
 </p>
