@@ -263,6 +263,18 @@ font-weight: 600;
   font-weight: 400;
   color: #a5acb4;
 }
+.link{
+  color: #3260B1;
+  border-bottom: 2px solid rgba(99,200,246,0.15);
+  text-decoration: none;
+  -webkit-transition: 0.35s;
+transition: 0.35s;
+}
+.link:hover{
+  color: #3260B1;
+  border-bottom-color: rgba(24,107,255,0);
+  background: rgba(24,107,255,0.2);
+}
 
 .p-date2{
   margin-top: 40px;
@@ -405,7 +417,10 @@ width: auto;
   }
   .desktop-container{
     background: #ffffff;
-    padding: 0 130px 0 130px;
+    max-width: 850px;
+    right: 0;
+      left: 0;
+      margin: auto;
   }
   .container-content{
     padding: 30px 85px 30px 85px
@@ -425,13 +440,6 @@ width: auto;
 @media (min-width: 1200px){
   .header-text{
     font-size: 50px;
-  }
-  .desktop-container{
-    background: #ffffff;
-    padding: 0 25% 0 25%;
-  }
-  .container-content{
-    padding: 3% 7% 3% 7%
   }
   .author{
     position: relative;
