@@ -75,18 +75,18 @@
     <p class="t-blog">Ein gutes Beispiel ist der Suchalgorithmus von Amazon. Versuchen Sie einfach, die ersten beiden Buchstaben eines Produkts einzugeben, das Sie regelmäßig online bestellen. Wie Zahnbürsten oder Toilettenpapier. Sie werden sehen, dass Amazon Ihnen genau das vorschlägt, wonach Sie suchen. Und dies basiert ausschließlich auf Statistik.</p>
     <amp-img alt="AI Suchalgorithmus von Amazon" layout="responsive" class="blog-picture"
     srcset="
-    {{ asset('assets/img/blog/1/amazon/200.webp') }} 200w,
-    {{ asset('assets/img/blog/1/amazon/687.webp') }} 687w,
-    {{ asset('assets/img/blog/1/amazon/1059.webp') }} 1059w,
-    {{ asset('assets/img/blog/1/amazon/1185.webp') }} 1185w"
-   src="{{ asset('assets/img/blog/1/amazon/1185.webp') }}" height="462" width="1185">
+    {{ asset('assets/img/blog/2/amazon/200.webp') }} 200w,
+    {{ asset('assets/img/blog/2/amazon/687.webp') }} 687w,
+    {{ asset('assets/img/blog/2/amazon/1059.webp') }} 1059w,
+    {{ asset('assets/img/blog/2/amazon/1185.webp') }} 1185w"
+   src="{{ asset('assets/img/blog/2/amazon/1185.webp') }}" height="462" width="1185">
     <amp-img fallback alt="AI Suchalgorithmus von Amazon" layout="responsive" class="blog-picture"
     srcset="
-    {{ asset('assets/img/blog/1/amazon/200.jpg') }} 200w,
-    {{ asset('assets/img/blog/1/amazon/687.jpg') }} 687w,
-    {{ asset('assets/img/blog/1/amazon/1059.jpg') }} 1059w,
-    {{ asset('assets/img/blog/1/amazon/1185.jpg') }} 1185w"
-   src="{{ asset('assets/img/blog/1/amazon/1185.jpg') }}" height="462" width="1185">
+    {{ asset('assets/img/blog/2/amazon/200.jpg') }} 200w,
+    {{ asset('assets/img/blog/2/amazon/687.jpg') }} 687w,
+    {{ asset('assets/img/blog/2/amazon/1059.jpg') }} 1059w,
+    {{ asset('assets/img/blog/2/amazon/1185.jpg') }} 1185w"
+   src="{{ asset('assets/img/blog/2/amazon/1185.jpg') }}" height="462" width="1185">
     </amp-img></amp-img>
     <p class="blog-picture-desc">Probieren Sie es selbst bei Amazon</p>
     @include('blog.ads.1')
@@ -98,22 +98,22 @@
 <p class="t-blog">Je mehr Benutzer Ihren Shop besuchen, desto mehr Daten können im Allgemeinen gespeichert und später vom Algorithmus analysiert werden. Daher werden die Endergebnisse im Cross-Selling-Bereich stetig besser und besser.</p>
 <amp-img alt="KI Bessere Produktempfehlung" layout="responsive" class="blog-picture"
 srcset="
-{{ asset('assets/img/blog/1/bought/200.webp') }} 200w,
-{{ asset('assets/img/blog/1/bought/538.webp') }} 538w,
-{{ asset('assets/img/blog/1/bought/802.webp') }} 802w,
-{{ asset('assets/img/blog/1/bought/1024.webp') }} 1024w,
-{{ asset('assets/img/blog/1/bought/1225.webp') }} 1225w,
-{{ asset('assets/img/blog/1/bought/1400.webp') }} 1400w"
-src="{{ asset('assets/img/blog/1/bought/1400.webp') }}" height="791" width="1400">
+{{ asset('assets/img/blog/2/bought/200.webp') }} 200w,
+{{ asset('assets/img/blog/2/bought/538.webp') }} 538w,
+{{ asset('assets/img/blog/2/bought/802.webp') }} 802w,
+{{ asset('assets/img/blog/2/bought/1024.webp') }} 1024w,
+{{ asset('assets/img/blog/2/bought/1225.webp') }} 1225w,
+{{ asset('assets/img/blog/2/bought/1400.webp') }} 1400w"
+src="{{ asset('assets/img/blog/2/bought/1400.webp') }}" height="791" width="1400">
 <amp-img fallback alt="KI Bessere Produktempfehlung" layout="responsive" class="blog-picture"
 srcset="
-{{ asset('assets/img/blog/1/bought/200.jpg') }} 200w,
-{{ asset('assets/img/blog/1/bought/538.jpg') }} 538w,
-{{ asset('assets/img/blog/1/bought/802.jpg') }} 802w,
-{{ asset('assets/img/blog/1/bought/1024.jpg') }} 1024w,
-{{ asset('assets/img/blog/1/bought/1225.jpg') }} 1225w,
-{{ asset('assets/img/blog/1/bought/1400.jpg') }} 1400w"
-src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400">
+{{ asset('assets/img/blog/2/bought/200.jpg') }} 200w,
+{{ asset('assets/img/blog/2/bought/538.jpg') }} 538w,
+{{ asset('assets/img/blog/2/bought/802.jpg') }} 802w,
+{{ asset('assets/img/blog/2/bought/1024.jpg') }} 1024w,
+{{ asset('assets/img/blog/2/bought/1225.jpg') }} 1225w,
+{{ asset('assets/img/blog/2/bought/1400.jpg') }} 1400w"
+src="{{ asset('assets/img/blog/2/bought/1400.jpg') }}" height="791" width="1400">
 </amp-img></amp-img>
 <p class="blog-picture-desc">© Ai-Online-Shop.com, Photo von <a href="https://unsplash.com/@anckor" target="_blank" class="link">Julian O'hayon</a></p>
 <p class="t-blog">Stellen Sie sich folgendes Szenario vor: Sie sind Eigentümer eines Elektronik-Onlineshops. Ihre Kunden können alle Arten von Laptops, Computern und Geräten kaufen. Ihre KI würde bereits vorhandene Einkäufe und weitere Daten von früheren Kunden analysieren. Dabei bildet die Analyse eine Grundlage für eine zukünftige Vorhersage des Kundenverhaltens für jeden einzelnen Besucher. Und das alles in Echtzeit.</p>
@@ -129,21 +129,21 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
   <h2 class="m10">3. Bestandsführung</h2>
   <p class="t-blog">Wie ich aus eigener Erfahrung weiß, kann das Verwalten von Inventar eine zeitaufwändige Aufgabe sein. In meinem ersten Online-Shop habe ich Power Banks über eBay verkauft und jede Nacht musste ich meine Lagerbestände manuell zählen, um alles im Auge zu behalten.</p>
     <amp-img alt="KI Bestandsführung" layout="responsive" class="blog-picture"
-    srcset="{{ asset('assets/img/blog/1/inventory/200.webp') }} 200w,
-    {{ asset('assets/img/blog/1/inventory/577.webp') }} 577w,
-    {{ asset('assets/img/blog/1/inventory/830.webp') }} 830w,
-    {{ asset('assets/img/blog/1/inventory/1077.webp') }} 1077w,
-    {{ asset('assets/img/blog/1/inventory/1284.webp') }} 1284w,
-    {{ asset('assets/img/blog/1/inventory/1400.webp') }} 1400w"
-    src="{{ asset('assets/img/blog/1/inventory/1400.webp') }}" height="933" width="1400">
+    srcset="{{ asset('assets/img/blog/2/inventory/200.webp') }} 200w,
+    {{ asset('assets/img/blog/2/inventory/577.webp') }} 577w,
+    {{ asset('assets/img/blog/2/inventory/830.webp') }} 830w,
+    {{ asset('assets/img/blog/2/inventory/1077.webp') }} 1077w,
+    {{ asset('assets/img/blog/2/inventory/1284.webp') }} 1284w,
+    {{ asset('assets/img/blog/2/inventory/1400.webp') }} 1400w"
+    src="{{ asset('assets/img/blog/2/inventory/1400.webp') }}" height="933" width="1400">
     <amp-img fallback alt="KI Bestandsführung" layout="responsive" class="blog-picture"
-    srcset="{{ asset('assets/img/blog/1/inventory/200.jpg') }} 200w,
-    {{ asset('assets/img/blog/1/inventory/577.jpg') }} 577w,
-    {{ asset('assets/img/blog/1/inventory/830.jpg') }} 830w,
-    {{ asset('assets/img/blog/1/inventory/1077.jpg') }} 1077w,
-    {{ asset('assets/img/blog/1/inventory/1284.jpg') }} 1284w,
-    {{ asset('assets/img/blog/1/inventory/1400.jpg') }} 1400w"
-    src="{{ asset('assets/img/blog/1/inventory/1400.jpg') }}" height="933" width="1400">
+    srcset="{{ asset('assets/img/blog/2/inventory/200.jpg') }} 200w,
+    {{ asset('assets/img/blog/2/inventory/577.jpg') }} 577w,
+    {{ asset('assets/img/blog/2/inventory/830.jpg') }} 830w,
+    {{ asset('assets/img/blog/2/inventory/1077.jpg') }} 1077w,
+    {{ asset('assets/img/blog/2/inventory/1284.jpg') }} 1284w,
+    {{ asset('assets/img/blog/2/inventory/1400.jpg') }} 1400w"
+    src="{{ asset('assets/img/blog/2/inventory/1400.jpg') }}" height="933" width="1400">
     </amp-img></amp-img>
     <p class="blog-picture-desc">© Ai-Online-Shop.com, Photo von <a href="https://unsplash.com/@samuelzeller" target="_blank" class="link">Samuel Zeller</a></p>
 <p class="t-blog">Es kam zweimal vor, dass ich einen meiner Bestseller zu spät bestellte. Die Folge war, dass ich meine Spitzenplätze an die Konkurrenz verloren habe. Etwas, das nicht zweimal passieren sollte.</p>
@@ -157,21 +157,21 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
   <h2 class="m10">4. After-Sales-Service auf Autopilot</h2>
   <p class="t-blog">Eine bekannte Tatsache im E-Commerce ist, dass der Service nach dem Verkauf eines Artikels erst richtig los geht. Kunden fragen in der Regel, wann ihre Bestellung versandt wurde und wann sie eintrifft. Natürlich gibt es viele andere Bedenken, die ein Kunde haben könnte. Aber diese beiden sind sehr verbreitet.</p>
   <amp-img alt="AI After-Sales-Service auf Autopilot" layout="responsive" class="blog-picture"
-  srcset="{{ asset('assets/img/blog/1/dhl/200.webp') }} 200w,
-  {{ asset('assets/img/blog/1/dhl/598.webp') }} 598w,
-  {{ asset('assets/img/blog/1/dhl/846.webp') }} 846w,
-  {{ asset('assets/img/blog/1/dhl/1098.webp') }} 1098w,
-  {{ asset('assets/img/blog/1/dhl/1310.webp') }} 1310w,
-  {{ asset('assets/img/blog/1/dhl/1400.webp') }} 1400w"
-  src="{{ asset('assets/img/blog/1/dhl/1400.webp') }}" height="934" width="1400">
+  srcset="{{ asset('assets/img/blog/2/dhl/200.webp') }} 200w,
+  {{ asset('assets/img/blog/2/dhl/598.webp') }} 598w,
+  {{ asset('assets/img/blog/2/dhl/846.webp') }} 846w,
+  {{ asset('assets/img/blog/2/dhl/1098.webp') }} 1098w,
+  {{ asset('assets/img/blog/2/dhl/1310.webp') }} 1310w,
+  {{ asset('assets/img/blog/2/dhl/1400.webp') }} 1400w"
+  src="{{ asset('assets/img/blog/2/dhl/1400.webp') }}" height="934" width="1400">
   <amp-img fallback alt="AI After-Sales-Service auf Autopilot" layout="responsive" class="blog-picture"
-  srcset="{{ asset('assets/img/blog/1/dhl/200.jpg') }} 200w,
-  {{ asset('assets/img/blog/1/dhl/598.jpg') }} 598w,
-  {{ asset('assets/img/blog/1/dhl/846.jpg') }} 846w,
-  {{ asset('assets/img/blog/1/dhl/1098.jpg') }} 1098w,
-  {{ asset('assets/img/blog/1/dhl/1310.jpg') }} 1310w,
-  {{ asset('assets/img/blog/1/dhl/1400.jpg') }} 1400w"
-  src="{{ asset('assets/img/blog/1/dhl/1400.jpg') }}" height="934" width="1400">
+  srcset="{{ asset('assets/img/blog/2/dhl/200.jpg') }} 200w,
+  {{ asset('assets/img/blog/2/dhl/598.jpg') }} 598w,
+  {{ asset('assets/img/blog/2/dhl/846.jpg') }} 846w,
+  {{ asset('assets/img/blog/2/dhl/1098.jpg') }} 1098w,
+  {{ asset('assets/img/blog/2/dhl/1310.jpg') }} 1310w,
+  {{ asset('assets/img/blog/2/dhl/1400.jpg') }} 1400w"
+  src="{{ asset('assets/img/blog/2/dhl/1400.jpg') }}" height="934" width="1400">
   </amp-img></amp-img>
   <p class="blog-picture-desc">© Ai-Online-Shop.com, Photo von <a href="https://unsplash.com/@purzlbaum" target="_blank" class="link">Claudio Schwarz</a></p>
   <p class="t-blog">Dennoch kann KI Sie in nahezu jedem After-Sales-Szenario wertvoll unterstützen. Zum einen könnte KI die Sendungsverfolgung automatisch per E-Mail versenden, zum anderen kann es auf Kundenwunsch auch die Sendungsverfolgungsnummer überprüfen.</p>
@@ -187,21 +187,21 @@ src="{{ asset('assets/img/blog/1/bought/1400.jpg') }}" height="791" width="1400"
 <p class="t-blog quote-gr-blue"><strong>Menschen kaufen Waren dort, wo die Dienstleistung ihren Bedürfnissen entspricht. Und ein guter Service geht immer mit einer guten Kommunikation einher. Denn wie Sie wissen, ist Kommunikation der Schlüssel!</strong> </p>
 <p class="t-blog">Eine Lösung, die sich auf gute Kommunikation in einer Online-Umgebung konzentriert, ist unser Freund, der Chatbot. Vor allem, wenn er mit KI fein abgestimmt wurde.</p>
 <amp-img alt="KI Chat bot Verbesserte Kundenkommunikation" layout="responsive" class="blog-picture"
-srcset="{{ asset('assets/img/blog/1/bot/200.webp') }} 200w,
-{{ asset('assets/img/blog/1/bot/659.webp') }} 659w,
-{{ asset('assets/img/blog/1/bot/972.webp') }} 972w,
-{{ asset('assets/img/blog/1/bot/1192.webp') }} 1192w,
-{{ asset('assets/img/blog/1/bot/1346.webp') }} 1346w,
-{{ asset('assets/img/blog/1/bot/1400.webp') }} 1400w"
-src="{{ asset('assets/img/blog/1/bot/1400.webp') }}" height="939" width="1400">
+srcset="{{ asset('assets/img/blog/2/bot/200.webp') }} 200w,
+{{ asset('assets/img/blog/2/bot/659.webp') }} 659w,
+{{ asset('assets/img/blog/2/bot/972.webp') }} 972w,
+{{ asset('assets/img/blog/2/bot/1192.webp') }} 1192w,
+{{ asset('assets/img/blog/2/bot/1346.webp') }} 1346w,
+{{ asset('assets/img/blog/2/bot/1400.webp') }} 1400w"
+src="{{ asset('assets/img/blog/2/bot/1400.webp') }}" height="939" width="1400">
 <amp-img fallback alt="KI Chat bot Verbesserte Kundenkommunikation" layout="responsive" class="blog-picture"
-srcset="{{ asset('assets/img/blog/1/bot/200.jpg') }} 200w,
-{{ asset('assets/img/blog/1/bot/659.jpg') }} 659w,
-{{ asset('assets/img/blog/1/bot/972.jpg') }} 972w,
-{{ asset('assets/img/blog/1/bot/1192.jpg') }} 1192w,
-{{ asset('assets/img/blog/1/bot/1346.jpg') }} 1346w,
-{{ asset('assets/img/blog/1/bot/1400.jpg') }} 1400w"
-src="{{ asset('assets/img/blog/1/bot/1400.jpg') }}" height="939" width="1400">
+srcset="{{ asset('assets/img/blog/2/bot/200.jpg') }} 200w,
+{{ asset('assets/img/blog/2/bot/659.jpg') }} 659w,
+{{ asset('assets/img/blog/2/bot/972.jpg') }} 972w,
+{{ asset('assets/img/blog/2/bot/1192.jpg') }} 1192w,
+{{ asset('assets/img/blog/2/bot/1346.jpg') }} 1346w,
+{{ asset('assets/img/blog/2/bot/1400.jpg') }} 1400w"
+src="{{ asset('assets/img/blog/2/bot/1400.jpg') }}" height="939" width="1400">
 </amp-img></amp-img>
 <p class="blog-picture-desc">© Ai-Online-Shop.com, Photo von <a href="https://unsplash.com/@kobuagency" target="_blank" class="link">Kobu Agency</a></p>
 <p class="t-blog">Ein gut entwickelter Chatbot kann weit mehr als nur Fragen beantworten. Chatbots, die KI und maschinelles Lernen verwenden, können jede Konversation mit früheren in Beziehung setzen und einen optimierten Weg wählen, um alle möglichen Fragen zu beantworten.</p>
