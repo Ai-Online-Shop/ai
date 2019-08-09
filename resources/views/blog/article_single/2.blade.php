@@ -1,6 +1,5 @@
 <div class="container-content">
     <p class="t-blog">Ich sitze hier in meinem kleinen Lagerbüro, starre auf die Verkaufsgeschichte meines Online-Shops und beginne zu überlegen, was künstliche Intelligenz im E-Commerce ist. Und könnte es dazu beitragen, meinen Online-Umsatz zu verbessern? Also habe ich ein bisschen recherchiert.
-<a href="{{ route('blog_slug', ['slug' => 'what-is-artificial-intelligence-in-ecommerce']) }}" class="link"> linker</a>
     </p>
 
     <p class="t-blog"><strong>Künstliche Intelligenz (KI) im Online Handel bezeichnet die Implementierung von maschinellen Lernprozessen zur Optimierung von Algorithmen. Einige dieser Algorithmen umfassen: Suche, Produktempfehlung, Bestandsverwaltung, Verkaufsstrategie und Kommunikation.

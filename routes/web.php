@@ -20,6 +20,6 @@ Route::group(
     ],
     function () {
         Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
-        Route::get(LaravelLocalization::transRoute('website.2'), ['as' => 'services', 'uses' => 'BlogController@services']);
+        //Route::get(LaravelLocalization::transRoute('website.2'), ['as' => 'services', 'uses' => 'BlogController@services']);
     }
 );
