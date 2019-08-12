@@ -53,4 +53,25 @@ class HomeController extends Controller
             'store_logo'
         ));
     }
+
+    public function privacy_policy()
+    {
+        return view('website.legal.privacy_policy');
+    }
+
+    public function cookies_policy()
+    {
+        return view('website.legal.cookies_policy');
+    }
+
+    public function impressum()
+    {
+        return view('website.legal.impressum');
+    }
+
+
+    public function terms()
+    {
+        return view('website.legal.terms');
+    }
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html ⚡ lang="{{ LaravelLocalization::getCurrentLocale() }}">
+<html ⚡ lang="{{ $language }}">
   <head>
     {{ $seo }}
     <meta name="robots" content="index, follow">
@@ -38,5 +38,45 @@
   </script>
 </amp-analytics>
   {{ $content }}
+  <amp-user-notification id="eu_cookie_consent"
+  class="sample-notification"
+  layout="nodisplay">
+  <div class="flex">
+    <div class="cell-1">
+      <p>This site uses cookies to offer you a better browsing experience.
+        Find out more on <a href="{{ route('cookies_policy') }}" class="link">how we use cookies and how you can change your settings.</a></p>
+    </div>
+    <div class="cell-2">
+        <button on="tap:eu_cookie_consent.dismiss" class="cookie1 button">I accept</button>
+    </div>
+  </div>
+</amp-user-notification>
+<h2 class="tabelofcontent"><strong>{{ __('website.7') }}</strong></h2>
+      <div class="content-navigation">
+        <a class="contain-content-button" href="{{ route('impressum')}}">
+          <div class="icon-content">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          </div>
+          <p class="content-button">{{ __('website.26')}}</p>
+        </a>
+      <a class="contain-content-button" href="{{ route('cookies_policy')}}">
+        <div class="icon-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p class="content-button">{{ __('website.22')}}</p>
+      </a>
+      <a class="contain-content-button" href="{{ route('terms')}}">
+        <div class="icon-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p class="content-button">{{ __('website.24')}}</p>
+      </a>
+      <a class="contain-content-button" href="{{ route('home')}}">
+        <div class="icon-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="black" d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <p class="content-button">Homepage</p>
+      </a>
+    </div>
   </body>
 </html>

@@ -19,6 +19,7 @@ class BlogController extends Controller
         $post = Blog::where('slug', $blog_slug)->where('active', 1)
             ->firstOrFail();
         $id = $post->id;
+        $language_code = $post->language_code;
         $title = $post->title;
         $desc = $post->desc;
         $section = $post->section;
@@ -46,6 +47,7 @@ class BlogController extends Controller
         return view('blog.article.'.$article_layout, compact(
             'title',
             'id',
+            'language_code',
             'section',
             'tags',
             'modified',
