@@ -10,10 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/sitemap', 'HomeController@sitemap');
 Route::group(
     [
         'prefix' => LaravelLocalization::setLocale(),
-        'middleware' => ['localize']
+        'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
     ],
     function () {
         Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
@@ -24,4 +25,3 @@ Route::group(
         Route::get('/{blog_slug}', 'BlogController@blog_single');
     }
 );
-Route::get('/sitemap', 'HomeController@sitemap');
