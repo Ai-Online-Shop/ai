@@ -21,7 +21,7 @@ Route::group(
         Route::get('legal/'.LaravelLocalization::transRoute('website.3'), ['as' => 'cookies_policy', 'uses' => 'HomeController@cookies_policy']);
         Route::get('legal/'.LaravelLocalization::transRoute('website.4'), ['as' => 'impressum', 'uses' => 'HomeController@impressum']);
         Route::get('legal/'.LaravelLocalization::transRoute('website.5'), ['as' => 'terms', 'uses' => 'HomeController@terms']);
-        Route::get('blog', 'BlogController@index');
+        Route::get('blog', ['as' => 'blog', 'uses' => 'BlogController@index']);
     }
 );
 Route::get('/{blog_slug}', 'BlogController@blog_single');
