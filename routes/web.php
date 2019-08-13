@@ -24,5 +24,5 @@ Route::group(
         Route::get('blog', ['as' => 'blog', 'uses' => 'BlogController@index']);
     }
 );
+Route::get('/sitemap', ['as' => 'sitemap', 'uses' => 'HomeController@sitemap']);
 Route::get('/{blog_slug}', 'BlogController@blog_single');
-Route::get('/sitemap', 'HomeController@sitemap');
