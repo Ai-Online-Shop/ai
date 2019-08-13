@@ -96,16 +96,15 @@
         <p class="content-button">Our Blog</p>
       </a>
     </div>
-    <p class="t-blog">© Ai-Online-Shop.com</p>
-    <ul>
+    <p class="t-blog">© Ai-Online-Shop.com</p>  <p>
         @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-            <li>
-                <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                    {{ $properties['native'] }}
+
+                <a rel="alternate" class="link" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                    {{ $properties['native'] }} /
                 </a>
-            </li>
         @endforeach
-    </ul>
+      </p>
+
   </div>
   </div>
   </body>

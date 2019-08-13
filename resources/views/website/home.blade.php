@@ -53,20 +53,20 @@
           "name": "{{ $author }}"
         },
         "publisher": {
-    –      "@type": "Organization",
+          "@type": "Organization",
           "name": "{{$store}}",
           "logo": {
             "@type": "ImageObject",
-            "url": "{{ $store_logo }}",
+            "url": "{{ asset('assets/img/store/logo/store-logo-small.jpf') }}",
             "width": 60,
             "height": 60
           }
         },
         "image": {
           "@type": "ImageObject",
-          "url": "{{ $img_social }}",
-          "height": 2000,
-          "width": 800
+          "url": "{{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }}",
+          "height": 512,
+          "width": 1024
         }
       }
     </script>
