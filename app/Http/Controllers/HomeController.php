@@ -19,7 +19,7 @@ class HomeController extends Controller
      */
     public function sitemap()
     {
-        SitemapGenerator::create('http://127.0.0.1:8000')->writeToFile('sitemap.xml');
+        SitemapGenerator::create('https://ai-online-shop.com')->writeToFile('sitemap.xml');
 
         return 'sitemap created';
     }
