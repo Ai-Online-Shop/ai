@@ -64,7 +64,7 @@
         },
         "image": {
           "@type": "ImageObject",
-          "url": "{{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }}",
+          "url": "{{ asset('assets/img/blog/1/social/1024.jpg') }}",
           "height": 512,
           "width": 1024
         }
