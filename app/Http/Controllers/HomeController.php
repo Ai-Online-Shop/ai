@@ -8,6 +8,7 @@ use DB;
 use \Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
+use Spatie\Sitemap\SitemapGenerator;
 
 class HomeController extends Controller
 {
@@ -16,6 +17,13 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function sitemap()
+    {
+        SitemapGenerator::create('https://ai-online-shop.com')->writeToFile('sitemap.xml');
+
+        return 'sitemap created';
+    }
+
     public function index()
     {
         $id = "cooming soon";
