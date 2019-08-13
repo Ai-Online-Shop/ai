@@ -1,5 +1,7 @@
 <?php
 
+use Spatie\Sitemap\SitemapGenerator;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,3 +27,7 @@ Route::group(
     }
 );
 Route::get('/{blog_slug}', 'BlogController@blog_single');
+Route::get('/sitemap', function () {
+    SitemapGenerator::create('https://ai-online-shop.com')->writeToFile('sitemap.xml');
+    return 'sitemap created';
+});
