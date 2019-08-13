@@ -14,6 +14,16 @@ use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
+    public function index(Request $request)
+    {
+        $l_id = LaravelLocalization::getCurrentLocale();
+        $post = Blog::where('language_code', $l_id)->where('active', 1)->get();
+
+        return view('blog.overview', compact(
+            'post'
+    ));
+    }
+
     public function blog_single(Request $request, $blog_slug)
     {
         $post = Blog::where('slug', $blog_slug)->where('active', 1)
@@ -24,7 +34,6 @@ class BlogController extends Controller
         $desc = $post->desc;
         $section = $post->section;
         $tags = $post->tags;
-
 
         $published = date("d F, Y", strtotime($post->created_at));
         $modified = date("d F, Y", strtotime($post->updated_at));
