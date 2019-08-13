@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://ai-online-shop.com/</loc>
+        <lastmod>2019-08-13T08:35:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ai-online-shop.com/en</loc>
+        <lastmod>2019-08-13T08:35:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ai-online-shop.com/en/legal/cookies</loc>
+        <lastmod>2019-08-13T08:35:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ai-online-shop.com/en/legal/legal-notice</loc>
+        <lastmod>2019-08-13T08:35:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ai-online-shop.com/en/legal/privacy</loc>
+        <lastmod>2019-08-13T08:35:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://ai-online-shop.com/en/legal/terms</loc>
+        <lastmod>2019-08-13T08:35:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

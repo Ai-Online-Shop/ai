@@ -10,11 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::group(
     [
         'prefix' => LaravelLocalization::setLocale(),
-        'middleware' => ['localize', 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
+        'middleware' => ['localize']
     ],
     function () {
         Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
@@ -24,5 +23,5 @@ Route::group(
         Route::get('legal/'.LaravelLocalization::transRoute('website.5'), ['as' => 'terms', 'uses' => 'HomeController@terms']);
     }
 );
-Route::get('/{blog_slug}', 'BlogController@blog_single');
 Route::get('/sitemap', 'HomeController@sitemap');
+Route::get('/{blog_slug}', 'BlogController@blog_single');
