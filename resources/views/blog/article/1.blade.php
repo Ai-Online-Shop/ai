@@ -12,13 +12,13 @@
     <meta name="twitter:creator" content="{{ $author_twitter }}">
     <meta name="twitter:title" content="{{ $title }}">
     <meta name="twitter:description" content="{{ $desc }}">
-    <meta name="twitter:image" content="{{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }}">
+    <meta name="twitter:image" content="{{ asset('assets/img/blog/'.$id. '/social/5.jpg') }}">
 <!-- Facebook Card tags -->
     <meta property="og:title" content="{{ $title }}">
     <meta property="og:description"
           content="{{ $desc }}">
     <meta property="og:image"
-          content="{{ asset('assets/img/blog/'.$id. '/social/630.jpg') }}">
+          content="{{ asset('assets/img/blog/'.$id. '/social/5.jpg') }}">
     <meta property="og:url"
           content="{{ Request::url() }}">
     <meta property="og:type" content="website">
@@ -48,7 +48,7 @@
         },
         "image": {
           "@type": "ImageObject",
-          "url": "{{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }}",
+          "url": "{{ asset('assets/img/blog/'.$id. '/social/5.jpg') }}",
           "height": 512,
           "width": 1024
         }
@@ -81,31 +81,31 @@ layout="nodisplay">
   <div class="overflow-container">
     <div id="blackmirror">
   <amp-img alt="{{ $title }}" class="mobile layer-black" layout="responsive" srcset="
-  {{ asset('assets/img/blog/'.$id. '/start/70.webp') }} 70w,
-  {{ asset('assets/img/blog/'.$id. '/start/456.webp') }} 456w,
-  {{ asset('assets/img/blog/'.$id. '/start/709.webp') }} 709w,
-  {{ asset('assets/img/blog/'.$id. '/start/887.webp') }} 887w,
-  {{ asset('assets/img/blog/'.$id. '/start/1000.webp') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/1000.webp') }}" height="1298" width="1000">
+  {{ asset('assets/img/blog/'.$id. '/start/1.webp') }} 200w,
+  {{ asset('assets/img/blog/'.$id. '/start/2.webp') }} 456w,
+  {{ asset('assets/img/blog/'.$id. '/start/3.webp') }} 709w,
+  {{ asset('assets/img/blog/'.$id. '/start/4.webp') }} 887w,
+  {{ asset('assets/img/blog/'.$id. '/start/5.webp') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/5.webp') }}" height="1298" width="1000">
     <amp-img fallback alt="{{ $title }}" class="mobile layer-black" layout="responsive" srcset="
-    {{ asset('assets/img/blog/'.$id. '/start/70.jpg') }} 70w,
-    {{ asset('assets/img/blog/'.$id. '/start/456.jpg') }} 456w,
-    {{ asset('assets/img/blog/'.$id. '/start/709.jpg') }} 709w,
-    {{ asset('assets/img/blog/'.$id. '/start/887.jpg') }} 887w,
-    {{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/1000.jpg') }}" height="1298" width="1000">
+    {{ asset('assets/img/blog/'.$id. '/start/1.jpg') }} 200w,
+    {{ asset('assets/img/blog/'.$id. '/start/2.jpg') }} 456w,
+    {{ asset('assets/img/blog/'.$id. '/start/3.jpg') }} 709w,
+    {{ asset('assets/img/blog/'.$id. '/start/4.jpg') }} 887w,
+    {{ asset('assets/img/blog/'.$id. '/start/5.jpg') }} 1000w" src="{{ asset('assets/img/blog/'.$id. '/start/5.jpg') }}" height="1298" width="1000">
     </amp-img>
     </amp-img>
     <amp-img alt="{{ $title }}" class="desktop layer-black" layout="responsive" srcset="
-    {{ asset('assets/img/blog/'.$id. '/social/200.webp') }} 200w,
-    {{ asset('assets/img/blog/'.$id. '/social/490.webp') }} 490w,
-    {{ asset('assets/img/blog/'.$id. '/social/690.webp') }} 690w,
-    {{ asset('assets/img/blog/'.$id. '/social/888.webp') }} 888w,
-    {{ asset('assets/img/blog/'.$id. '/social/1024.webp') }} 1024w" src="{{ asset('assets/img/blog/'.$id. '/social/1024.webp') }}" height="512" width="1024">
+    {{ asset('assets/img/blog/'.$id. '/social/1.webp') }} 200w,
+    {{ asset('assets/img/blog/'.$id. '/social/2.webp') }} 490w,
+    {{ asset('assets/img/blog/'.$id. '/social/3.webp') }} 690w,
+    {{ asset('assets/img/blog/'.$id. '/social/4.webp') }} 888w,
+    {{ asset('assets/img/blog/'.$id. '/social/5.webp') }} 1024w" src="{{ asset('assets/img/blog/'.$id. '/social/5.webp') }}" height="512" width="1024">
     <amp-img fallback alt="{{ $title }}" class="desktop layer-black" layout="responsive" srcset="
-    {{ asset('assets/img/blog/'.$id. '/social/200.jpg') }} 200w,
-    {{ asset('assets/img/blog/'.$id. '/social/490.jpg') }} 490w,
-    {{ asset('assets/img/blog/'.$id. '/social/690.jpg') }} 690w,
-    {{ asset('assets/img/blog/'.$id. '/social/888.jpg') }} 888w,
-    {{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }} 1024w" src="{{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }}" height="512" width="1024">
+    {{ asset('assets/img/blog/'.$id. '/social/1.jpg') }} 200w,
+    {{ asset('assets/img/blog/'.$id. '/social/2.jpg') }} 490w,
+    {{ asset('assets/img/blog/'.$id. '/social/3.jpg') }} 690w,
+    {{ asset('assets/img/blog/'.$id. '/social/4.jpg') }} 888w,
+    {{ asset('assets/img/blog/'.$id. '/social/5.jpg') }} 1024w" src="{{ asset('assets/img/blog/'.$id. '/social/5.jpg') }}" height="512" width="1024">
     </amp-img></amp-img>
 </div>
 <amp-animation id="blogphototext"
@@ -148,7 +148,7 @@ layout="nodisplay">
                     <amp-social-share class="rounded" type="email" width="48" height="48"></amp-social-share>
                     <amp-social-share class="rounded" type="facebook" data-param-app_id="1850379645107816" width="48" height="48"></amp-social-share>
                     <amp-social-share class="rounded" type="linkedin" width="48" height="48"></amp-social-share>
-                    <amp-social-share class="rounded" type="pinterest" data-param-media="{{ asset('assets/img/blog/'.$id. '/social/1024.jpg') }}" width="48" height="48"></amp-social-share>
+                    <amp-social-share class="rounded" type="pinterest" data-param-media="{{ asset('assets/img/blog/'.$id. '/social/5.jpg') }}" width="48" height="48"></amp-social-share>
                     <amp-social-share class="rounded" type="tumblr" width="48" height="48"></amp-social-share>
                     <amp-social-share class="rounded" type="twitter" width="48" height="48"></amp-social-share>
                     <amp-social-share class="rounded" type="whatsapp" width="48" height="48"></amp-social-share>

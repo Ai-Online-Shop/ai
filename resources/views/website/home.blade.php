@@ -9,13 +9,13 @@
     <meta name="twitter:creator" content="@AiOnlineShop2">
     <meta name="twitter:title" content="{{ $title }}">
     <meta name="twitter:description" content="{{ $desc }}">
-    <meta name="twitter:image" content="{{ $img_social }}">
+    <meta name="twitter:image" content="{{ asset('assets/img/blog/1/social/5.jpg') }}">
 <!-- Facebook Card tags -->
     <meta property="og:title" content="{{ $title }}">
     <meta property="og:description"
           content="{{ $desc }}">
     <meta property="og:image"
-          content="{{ $img_social }}">
+          content="{{ asset('assets/img/blog/1/social/5.jpg') }}">
     <meta property="og:url"
           content="{{ Request::url() }}">
     <meta property="og:type" content="website">
@@ -64,7 +64,7 @@
         },
         "image": {
           "@type": "ImageObject",
-          "url": "{{ asset('assets/img/blog/1/social/1024.jpg') }}",
+          "url": "{{ asset('assets/img/blog/1/social/5.jpg') }}",
           "height": 512,
           "width": 1024
         }
