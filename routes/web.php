@@ -22,9 +22,9 @@ Route::group(
         Route::get('legal/'.LaravelLocalization::transRoute('website.4'), ['as' => 'impressum', 'uses' => 'HomeController@impressum']);
         Route::get('legal/'.LaravelLocalization::transRoute('website.5'), ['as' => 'terms', 'uses' => 'HomeController@terms']);
         Route::get('blog', ['as' => 'blog', 'uses' => 'BlogController@index']);
-        //Route::get('encyclopedia', ['as' => 'encyclopedia', 'uses' => 'EncyclopediaController@index']);
+        Route::get('encyclopedia', ['as' => 'encyclopedia', 'uses' => 'EncyclopediaController@index']);
     }
 );
 Route::get('/sitemap', ['as' => 'sitemap', 'uses' => 'HomeController@sitemap']);
 Route::get('/{blog_slug}', 'BlogController@blog_single');
-//Route::get('/encyclopedia/{encyclopedia_slug}', 'EncyclopediaController@encyclopedia_single');
+Route::get('/encyclopedia/{encyclopedia_slug}', 'EncyclopediaController@encyclopedia_single');
